@@ -1,4 +1,4 @@
-nesse projeto fio usado as seguintes tecnologias 
+nesse projeto foi usado as seguintes tecnologias:
 React
 Javascript
 css
