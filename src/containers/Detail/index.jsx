@@ -39,7 +39,6 @@ function Detail() {
                     setMovieVideos(videos);
                     setMovieCredits(credits);
                     setMovieSimilar(similar);
-                    console.log({ movie, videos, credits, similar });
                 })
                 .catch((error) => console.error(error));
         }

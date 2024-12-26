@@ -69,7 +69,6 @@ export async function getMovieSimilar(movieId) {
         data: { results }
     } = await api.get(`/movie/${movieId}/similar`)
 
-    console.log(results)
     return results
 }
 
