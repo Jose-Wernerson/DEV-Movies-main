@@ -110,3 +110,11 @@ export async function getAiringToday() {
 
     return results[0]
 }
+
+export async function getMovieChanges() { 
+    const {
+        data: { results }
+    } = await api.get('/movie/changes')
+
+    return results
+}
